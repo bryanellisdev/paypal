@@ -20,7 +20,7 @@ export default function Home() {
                             </div>
                             <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
                                 <h3>{product.title}</h3>
-                                <p>{product.price}</p>
+                                <p>{`$${product.price}`}</p>
                             </div>
                         </Link>
                     ))}
