@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "title": "Nerd Swagger Hoodie",
+        "price": "339.99",
+        "sizes": [
+            "SM",
+            "MD",
+            "LG",
+            "XL"
+        ],
+        "img": "http://nerd-swagger.com/img/hoodie.jpeg",
+        "description": "Bask in the aura of coolness with our 'Dope Hoodie'. This ultra-comfortable, stylish tee is more than just clothing - it's a statement of attitude. With a name that says it all, our Dope Hoodie sets the standard for chic streetwear. Crafted from 100% premium-quality cotton, this hoodie ensures not just style but also comfort. Its regular fit design assures an effortless fit while the soft, breathable fabric provides all-day comfort. Whether you're out with friends, at a concert, or just chilling at home, this shirt promises to keep you cozy."
+    },
+    {
+        "id": 2,
+        "title": "Dope T-Shirt",
+        "price": "714.99",
+        "sizes": [
+            "SM",
+            "MD",
+            "LG",
+            "XL"
+        ],
+        "img": "http://nerd-swagger.com/img/rip.jpeg",
+        "description": "Elevate your wardrobe and amplify your allure with our Elite Aura Shirt. Designed not just as a piece of clothing, but as a transformative style experience, this shirt guarantees to place you a cut above the rest, making you look and feel your absolute best. The Elite Aura Shirt is crafted from a blend of luxury fabrics, ensuring an experience that's as comfortable as it is stylish. The touch of cashmere in the blend adds a gentle softness that caresses your skin, while the breathable cotton ensures you stay cool and relaxed all day. This shirt is not just about wearing comfort - it's about experiencing it."
+    },
+    {
+        "id": 3,
+        "title": "Black T-Shirt",
+        "price": "1214.99",
+        "sizes": [
+            "SM",
+            "MD",
+            "LG",
+            "XL"
+        ],
+        "img": "http://nerd-swagger.com/img/tshirt.jpeg",
+        "description": "Embrace the audacious side of fashion with our Boldly Snug T-Shirt! This shirt, characterized by its extraordinarily tight fit, is a daring deviation from the comfort zone. Made for the brave and bold, it challenges conventional style standards and stands as a testament to the phrase beauty is pain. Our Boldly Snug T-Shirt is cut from a blend of synthetic fibers, designed to cling to every contour of your physique. This extremely form-fitting design accentuates your body shape in an uncompromising manner. With its tight fit, this t-shirt offers a unique, if not somewhat challenging, wearing experience that is sure to make you stand out from the crowd."
+    },
+    {
+        "id": 4,
+        "title": "Pyro T-Shirt",
+        "price": "184.99",
+        "sizes": [
+            "SM",
+            "MD",
+            "LG",
+            "XL"
+        ],
+        "img": "http://nerd-swagger.com/img/t.jpeg",
+        "description": "Discover the thrill of our Pyro-Tee Interactive T-Shirt! This shirt is an impressive fusion of clothing and performance art, creating a sensational visual spectacle. This t-shirt is not designed for the ordinary, but for those who dare to make a bold, fiery statement. Crafted from a proprietary blend of heat-resistant materials, this t-shirt is capable of producing a controlled burn that creates an extraordinary spectacle, without causing harm to the wearer. It should be noted that this product is intended for professional or supervised use only and should never be worn or activated without appropriate safety measures in place."
+    }
+]

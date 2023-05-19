@@ -1,0 +1,118 @@
+{
+    "create_time": "2023-05-19T02:06:38Z",
+    "update_time": "2023-05-19T02:06:44Z",
+    "id": "8GH09966LH7432820",
+    "intent": "CAPTURE",
+    "status": "COMPLETED",
+    "payer": {
+        "email_address": "sb-z7tuq26043086@personal.example.com",
+        "payer_id": "RVQRV85H67884",
+        "address": {
+            "address_line_1": "1 Main St",
+            "admin_area_2": "San Jose",
+            "admin_area_1": "CA",
+            "postal_code": "95131",
+            "country_code": "US"
+        },
+        "name": {
+            "given_name": "John",
+            "surname": "Doe"
+        },
+        "phone": {
+            "phone_number": {
+                "national_number": "4086365795"
+            }
+        }
+    },
+    "purchase_units": [
+        {
+            "description": "Blue T-Shirt",
+            "reference_id": "default",
+            "custom_id": "4",
+            "amount": {
+                "value": "184.99",
+                "currency_code": "USD"
+            },
+            "payee": {
+                "email_address": "barco.03-facilitator@gmail.com",
+                "merchant_id": "YQZCHTGHUK5P8"
+            },
+            "shipping": {
+                "name": {
+                    "full_name": "John Doe"
+                },
+                "address": {
+                    "address_line_1": "1 Main St",
+                    "admin_area_2": "San Jose",
+                    "admin_area_1": "CA",
+                    "postal_code": "95131",
+                    "country_code": "US"
+                }
+            },
+            "payments": {
+                "captures": [
+                    {
+                        "status": "COMPLETED",
+                        "id": "7GJ071399N527725U",
+                        "final_capture": true,
+                        "create_time": "2023-05-19T02:06:44Z",
+                        "update_time": "2023-05-19T02:06:44Z",
+                        "amount": {
+                            "value": "184.99",
+                            "currency_code": "USD"
+                        },
+                        "seller_protection": {
+                            "status": "ELIGIBLE",
+                            "dispute_categories": [
+                                "ITEM_NOT_RECEIVED",
+                                "UNAUTHORIZED_TRANSACTION"
+                            ]
+                        },
+                        "links": [
+                            {
+                                "href": "https://api.sandbox.paypal.com/v2/payments/captures/7GJ071399N527725U",
+                                "rel": "self",
+                                "method": "GET",
+                                "title": "GET"
+                            },
+                            {
+                                "href": "https://api.sandbox.paypal.com/v2/payments/captures/7GJ071399N527725U/refund",
+                                "rel": "refund",
+                                "method": "POST",
+                                "title": "POST"
+                            },
+                            {
+                                "href": "https://api.sandbox.paypal.com/v2/checkout/orders/8GH09966LH7432820",
+                                "rel": "up",
+                                "method": "GET",
+                                "title": "GET"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "links": [
+        {
+            "href": "https://api.sandbox.paypal.com/v2/checkout/orders/8GH09966LH7432820",
+            "rel": "self",
+            "method": "GET",
+            "title": "GET"
+        }
+    ],
+    "item": {
+        "id": 4,
+        "title": "Blue T-Shirt",
+        "price": "184.99",
+        "sizes": [
+            "SM",
+            "MD",
+            "LG",
+            "XL"
+        ],
+        "img": "http://nerd-swagger.com/img/t.jpeg",
+        "description": "Discover the thrill of our Pyro-Tee Interactive T-Shirt! This shirt is an impressive fusion of clothing and performance art, creating a sensational visual spectacle. This t-shirt is not designed for the ordinary, but for those who dare to make a bold, fiery statement. Crafted from a proprietary blend of heat-resistant materials, this t-shirt is capable of producing a controlled burn that creates an extraordinary spectacle, without causing harm to the wearer. It should be noted that this product is intended for professional or supervised use only and should never be worn or activated without appropriate safety measures in place."
+    },
+    "selectedSize": "LG"
+}
